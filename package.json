@@ -1,0 +1,17 @@
+{
+  "name": "lambda-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions",
+    "build": "npm run lambda-build"
+  },
+  "keywords": [],
+  "author": "Gustavo",
+  "license": "MIT",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
+  }
+}
